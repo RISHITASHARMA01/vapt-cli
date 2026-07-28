@@ -1,0 +1,5 @@
+vapt_output/
+my_scan_results/
+__pycache__/
+*.pyc
+.venv/
