@@ -1,5 +1,12 @@
+# scan output
 vapt_output/
+out_*/
 my_scan_results/
+
+# Python
 __pycache__/
 *.pyc
 .venv/
+
+# backups
+*.bak
