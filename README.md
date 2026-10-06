@@ -139,7 +139,7 @@ vapt-cli/
 
 ## Roadmap
 
-- [ ] Unit tests (pytest) for the mapping and validation helpers
+- [x] Unit tests (pytest) for the mapping and validation helpers
 - [ ] Authenticated scanning support
 - [ ] HTML/PDF report export
 - [ ] Wider CWE-to-OWASP mapping coverage
