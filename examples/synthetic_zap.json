@@ -1,0 +1,17 @@
+{
+  "site": [
+    {
+      "@name": "http://lab.example.invalid",
+      "alerts": [
+        {
+          "name": "Synthetic missing browser security header",
+          "riskdesc": "Medium (High)",
+          "cweid": "693",
+          "solution": "Review response headers and deploy an appropriate security header.",
+          "desc": "Synthetic fixture; no scan performed.",
+          "instances": [{"uri": "http://lab.example.invalid/"}]
+        }
+      ]
+    }
+  ]
+}
