@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NessusClientData_v2>
+  <Report name="SYNTHETIC - NOT A REAL SCAN">
+    <ReportHost name="lab.example.invalid">
+      <ReportItem port="443" svc_name="https" protocol="tcp" severity="4" pluginID="999001" pluginName="Synthetic vulnerable component">
+        <cvss3_base_score>9.8</cvss3_base_score>
+        <cve>CVE-2099-0001</cve>
+        <synopsis>Artificial example for parser verification only.</synopsis>
+        <solution>Update the affected lab package to the patched version after validating the finding.</solution>
+        <plugin_output>SIMULATED OUTPUT; NOT OBSERVED ON A REAL HOST.</plugin_output>
+      </ReportItem>
+      <ReportItem port="80" svc_name="http" protocol="tcp" severity="1" pluginID="999002" pluginName="Synthetic header observation">
+        <solution>Review header settings and apply an appropriate hardening baseline.</solution>
+      </ReportItem>
+    </ReportHost>
+  </Report>
+</NessusClientData_v2>
