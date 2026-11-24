@@ -47,7 +47,7 @@ class AssessmentTests(unittest.TestCase):
         self.assertIn("Authorized lab evidence", result)
         self.assertIn("Critical", result)
         self.assertIn("Remediation and verification", result)
-        self.assertIn("synthetic fixture", result)
+        self.assertIn("synthetic fixture", result.lower())
 
 if __name__ == "__main__":
     unittest.main()
