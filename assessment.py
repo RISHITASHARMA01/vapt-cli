@@ -130,8 +130,9 @@ def parse_zap(path):
 
 def parse_nmap(path):
     data = read_input(path)
+    data = re.sub(rb"<!DOCTYPE\s+nmaprun\s*>", b"", data, count=1)
     if b"<!DOCTYPE" in data.upper() or b"<!ENTITY" in data.upper():
-        raise ValueError("DTD/entity declarations are not permitted in Nmap XML")
+        raise ValueError("Unsafe DTD/entity declarations in Nmap XML")
     root = ET.fromstring(data)
     if root.tag != "nmaprun":
         raise ValueError("Expected nmaprun XML")
