@@ -1,0 +1,11 @@
+{
+  "lab": "Synthetic offline lab demonstration",
+  "authorization": "Fixtures only; no target scan or exploitation occurred",
+  "records": [
+    {
+      "label": "Parser validation",
+      "observation": "Synthetic fixture imported for demonstration; not real scan evidence.",
+      "artifact": "examples/synthetic_lab.nessus"
+    }
+  ]
+}
